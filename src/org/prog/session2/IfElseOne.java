@@ -6,7 +6,8 @@ package org.prog.session2;
 // logic: if you have more money TWICE that phone costs -> credit it.
 // If THRICE money of phone price -> buy it
 
-public class IfElseOne {
+public class
+IfElseOne {
 
     public static void main(String[] args) {
         int myMoney = 31000;
