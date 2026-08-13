@@ -2,7 +2,8 @@ package org.prog.session5;
 
 import java.time.LocalDateTime;
 
-public class Schedule {
+public class
+Schedule {
 
     public LocalDateTime[] departures;
     public Car[] cars;
