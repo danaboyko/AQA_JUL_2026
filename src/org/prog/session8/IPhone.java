@@ -11,6 +11,14 @@ public class IPhone implements Phone{
             return isEqual;}
         return false;}
     @Override
+    public int hashCode(){
+        return (this.color).hashCode();
+    }
+    @Override
+    public String toString(){
+        return "IPhone [color=" +color+"]";
+    }
+    @Override
     public void unlock (){
         System.out.println("IPhone with face");
     }

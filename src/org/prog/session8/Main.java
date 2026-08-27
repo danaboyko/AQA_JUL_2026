@@ -32,11 +32,17 @@ public class Main {
         unlock(android3);
 
 
-        System.out.print(android1.equals(iPhones1));
+        System.out.println(android1.equals(iPhones1));
         System.out.println(android1.equals(android2));
         System.out.println(iPhones1.equals(iPhones2));
         System.out.println(iPhones2.equals(iPhones3));
         System.out.println(android2.equals(android3));
+        System.out.println(android1.hashCode());
+        System.out.println(android2.hashCode());
+        System.out.println(android3.hashCode());
+        System.out.println(iPhones1.hashCode());
+        System.out.println(iPhones2.hashCode());
+        System.out.println(iPhones3.hashCode());
 
     }
 

@@ -10,6 +10,14 @@ public class Android implements Phone{
             boolean isEqual = this.color.equals(c.color);
             return isEqual ;}
         return false;}
+    @Override
+    public int hashCode(){
+            return (this.color).hashCode();
+    }
+    @Override
+    public String toString(){
+            return "Android [color=" +color+"]";
+    }
 
     @Override
     public void unlock(){
