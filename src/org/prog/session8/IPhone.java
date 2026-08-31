@@ -2,6 +2,16 @@ package org.prog.session8;
 
 public class IPhone implements Phone{
     public String color;
+    public IPhone(){
+
+    }
+    public IPhone(String color){
+        this.color = color;
+    }
+    @Override
+    public String getColor(){
+        return color;
+    }
 
     @Override
     public boolean equals (Object obj){
@@ -23,3 +33,4 @@ public class IPhone implements Phone{
         System.out.println("IPhone with face");
     }
 }
+

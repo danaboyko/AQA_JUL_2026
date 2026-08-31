@@ -2,7 +2,16 @@ package org.prog.session8;
 
 public class Android implements Phone{
     public String color;
+    public Android(){
 
+    }
+    public Android(String color){
+        this.color = color;
+    }
+        @Override
+        public String getColor(){
+        return color;
+        }
         @Override
     public boolean equals (Object obj){
         if (obj instanceof Android){
@@ -17,6 +26,7 @@ public class Android implements Phone{
     @Override
     public String toString(){
             return "Android [color=" +color+"]";
+
     }
 
     @Override
@@ -24,3 +34,4 @@ public class Android implements Phone{
         System.out.println("Android with fingerprint");
     }
 }
+
