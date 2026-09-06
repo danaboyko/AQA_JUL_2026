@@ -2,11 +2,18 @@ package org.prog.session8;
 
 public class IPhone implements Phone{
     public String color;
+    public String numberId;
+    public String name;
     public IPhone(){
 
     }
     public IPhone(String color){
         this.color = color;
+
+    }
+    public IPhone(String numberId, String name) {
+        this.numberId = numberId;
+        this.name = name;
     }
     @Override
     public String getColor(){
