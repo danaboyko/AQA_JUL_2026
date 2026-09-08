@@ -2,7 +2,7 @@ package org.prog.session8;
 
 public class Android implements Phone{
     public String color;
-    public String numberId;
+    public String number;
     public String name;
     public Android(){
 
@@ -10,8 +10,8 @@ public class Android implements Phone{
     public Android(String color) {
         this.color = color;
     }
-        public Android(String numberId, String name){
-        this.numberId = numberId;
+        public Android(String number, String name){
+        this.number = number;
         this.name = name;
     }
         @Override
